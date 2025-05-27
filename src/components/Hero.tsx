@@ -4,22 +4,17 @@ import { Phone } from "lucide-react";
 const Hero = () => {
   return (
     <section id="home" className="relative">
+      <div className="absolute inset-0 bg-[#F1E0C2] opacity-90"></div>
       <div
-        className="absolute inset-0 
-            bg-[#F1E0C2] 
-            opacity-90"
-      ></div>
-      <div
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-no-repeat"
         style={{
           backgroundImage: "url('./assets/GSH&Clogo.jpg')",
           backgroundPosition: "center",
-          backgroundSize: "75%",
-          backgroundRepeat: "no-repeat",
-          height: "700px",
+          backgroundSize: "contain",
+          height: "600px",
         }}
       ></div>
-      <div className="container relative mx-auto px-4 sm:px-6 lg:px-8 z-10 h-[700px] flex items-end justify-center pb-6">
+      <div className="container relative mx-auto px-4 sm:px-6 lg:px-8 z-10 h-[600px] flex items-end justify-center pb-6">
         <div className="flex flex-col sm:flex-row gap-4 animate-fadeIn animation-delay-400">
           <a
             href="tel:+19165105355"
