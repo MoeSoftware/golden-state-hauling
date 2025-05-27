@@ -1,5 +1,5 @@
-import React from 'react';
-import { Phone } from 'lucide-react';
+import React from "react";
+import { Phone } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -8,8 +8,8 @@ const Hero = () => {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('/assets/GSH&Clogo.jpg')",
-          backgroundPosition: 'center 25%',
+          backgroundImage: "url('/public/assets/GSH&Clogo.jpg')",
+          backgroundPosition: "center 25%",
         }}
       ></div>
       <div className="container relative mx-auto px-4 sm:px-6 lg:px-8 z-10">
