@@ -19,7 +19,7 @@ const About = () => {
       icon: <Map className="h-6 w-6 text-amber-500" />,
       title: "Local Expertise",
       description:
-        "Our local knowledge ensures we handle all regulations and disposal requirements.",
+        "Serving Lincoln and surrounding areas with comprehensive knowledge of local disposal regulations.",
     },
     {
       icon: <ThumbsUp className="h-6 w-6 text-amber-500" />,
@@ -38,14 +38,16 @@ const About = () => {
               About Golden State Hauling & Cleaning
             </h2>
             <p className="text-lg text-gray-700 mb-6">
-              At Golden State Hauling & Cleaning, we're dedicated to providing
-              reliable, efficient, and affordable hauling and junk removal
+              At Golden State Hauling & Cleaning, we're Lincoln's trusted choice
+              for reliable, efficient, and affordable hauling and junk removal
               services for residential and commercial customers.
             </p>
             <p className="text-lg text-gray-700 mb-6">
-              With years of experience in the industry, our team handles
-              everything from residential cleanouts to equipment transport with
-              professionalism and care.
+              With years of experience serving the Lincoln community, our team
+              handles everything from residential cleanouts to equipment
+              transport with professionalism and care. We're committed to
+              environmentally responsible disposal practices and excellent
+              customer service.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-6 mt-8">
@@ -69,14 +71,14 @@ const About = () => {
                 <div className="rounded-lg overflow-hidden shadow-xl transform hover:scale-105 transition-transform duration-300">
                   <img
                     src="./assets/img1.jpg"
-                    alt="Hauling service"
+                    alt="Professional junk removal service in Lincoln CA"
                     className="w-full h-auto object-cover"
                   />
                 </div>
                 <div className="rounded-lg overflow-hidden shadow-xl transform hover:scale-105 transition-transform duration-300">
                   <img
                     src="./assets/img2.jpg"
-                    alt="Equipment transport"
+                    alt="Equipment transport services Lincoln California"
                     className="w-full h-auto object-cover"
                   />
                 </div>
@@ -85,7 +87,7 @@ const About = () => {
                 <div className="rounded-lg overflow-hidden shadow-xl transform hover:scale-105 transition-transform duration-300">
                   <img
                     src="./assets/img3.jpg"
-                    alt="Cleaning service"
+                    alt="Residential cleanout services near Lincoln"
                     className="w-full h-auto object-cover"
                   />
                 </div>
