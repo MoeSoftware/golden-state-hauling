@@ -19,7 +19,7 @@ const Hero = () => {
           height: "558px",
         }}
       ></div>
-      <div className="container relative mx-auto px-4 sm:px-6 lg:px-8 z-10 h-[558px] flex items-end justify-center pb-8">
+      <div className="container relative mx-auto px-4 sm:px-6 lg:px-8 z-10 h-[558px] flex items-end justify-center pb-16">
         <div className="flex flex-col sm:flex-row gap-4 animate-fadeIn animation-delay-400">
           <a
             href="tel:+19165105355"
