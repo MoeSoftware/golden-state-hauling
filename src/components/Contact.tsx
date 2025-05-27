@@ -1,11 +1,11 @@
 import React from "react";
-import { Phone, Clock, MapPin, Mail } from "lucide-react";
+import { Phone, MapPin, Mail } from "lucide-react";
 
 const Contact = () => {
   const contactInfo = [
     {
       icon: <Phone className="h-6 w-6 text-amber-500" />,
-      title: "Call For a Quote",
+      title: "Call For a Free Quote",
       details: "(916) 510-5355",
       action: "tel:+19165105355",
       actionText: "Call Now",
@@ -39,7 +39,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           {contactInfo.map((item, index) => (
             <div
               key={index}
@@ -67,7 +67,7 @@ const Contact = () => {
 
         <div className="bg-blue-50 rounded-lg mt-12 p-8 text-center">
           <h3 className="text-2xl font-bold text-blue-900 mb-4">
-            Need a Quote Fast?
+            Need a Free Quote Fast?
           </h3>
           <p className="text-lg text-gray-700 mb-6">
             We pride ourselves on quick responses and competitive pricing. Give
