@@ -9,11 +9,20 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage: "url('./assets/GSH&Clogo.jpg')",
-          backgroundPosition: "center 25%",
+          backgroundPosition: "center",
+          backgroundSize: "contain",
+          backgroundRepeat: "no-repeat",
         }}
       ></div>
       <div className="container relative mx-auto px-4 sm:px-6 lg:px-8 z-10">
         <div className="max-w-3xl">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 animate-fadeIn">
+            Professional Hauling & Junk Removal
+          </h1>
+          <p className="text-xl text-white/90 mb-8 animate-fadeIn animation-delay-200">
+            We handle everything from residential cleanouts to equipment
+            transport and debris removal. One call solves it all.
+          </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-fadeIn animation-delay-400">
             <a
               href="tel:+19165105355"
