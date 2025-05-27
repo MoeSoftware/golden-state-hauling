@@ -20,8 +20,8 @@ const Contact = () => {
     {
       icon: <Mail className="h-6 w-6 text-amber-500" />,
       title: "Email Us",
-      details: "goldenhaulingandcleaning@gmail.com",
-      action: "mailto:goldenhaulingandcleaning@gmail.com",
+      details: "goldenstatehaulingandcleaning@gmail.com",
+      action: "mailto:goldenstatehaulingandcleaning@gmail.com",
       actionText: "Send Email",
     },
   ];

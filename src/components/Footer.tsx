@@ -124,7 +124,7 @@ const Footer = () => {
               </li>
               <li className="text-blue-200">
                 <span className="font-semibold">Email:</span>{" "}
-                goldenhaulingandcleaning@gmail.com
+                goldenstatehaulingandcleaning@gmail.com
               </li>
             </ul>
           </div>
