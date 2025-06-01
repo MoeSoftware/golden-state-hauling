@@ -6,5 +6,6 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: '/golden-state-hauling/',
+  // Removing the base path since we're using a custom domain
+  base: '/',
 });
