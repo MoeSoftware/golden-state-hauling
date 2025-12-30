@@ -6,8 +6,8 @@ const Contact = () => {
     {
       icon: <Phone className="h-6 w-6 text-amber-500" />,
       title: "Call For a Free Quote",
-      details: "(916) 510-5355",
-      action: "tel:+19165105355",
+      details: "(916) 888-4692",
+      action: "tel:+19168884692",
       actionText: "Call Now",
     },
     {
@@ -74,11 +74,11 @@ const Contact = () => {
             us a call today!
           </p>
           <a
-            href="tel:+19165105355"
+            href="tel:+19168884692"
             className="inline-flex items-center bg-amber-500 hover:bg-amber-600 text-white font-bold py-3 px-8 rounded-md transition-all duration-300 transform hover:scale-105"
           >
             <Phone className="mr-2 h-5 w-5" />
-            (916) 510-5355
+            (916) 888-4692
           </a>
         </div>
       </div>

@@ -86,11 +86,11 @@ const Services = () => {
 
         <div className="mt-12 text-center">
           <a
-            href="tel:+19165105355"
+            href="tel:+19168884692"
             className="inline-flex items-center bg-amber-500 hover:bg-amber-600 text-white font-bold py-3 px-6 rounded-md transition-all duration-300"
           >
             <Phone className="mr-2 h-5 w-5" />
-            Call For Quote: (916)-510-5355
+            Call For Quote: (916) 888-4692
           </a>
         </div>
       </div>

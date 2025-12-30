@@ -120,7 +120,7 @@ const Footer = () => {
             </h4>
             <ul className="space-y-2">
               <li className="text-blue-200">
-                <span className="font-semibold">Phone:</span> (916) 510-5355
+                <span className="font-semibold">Phone:</span> (916) 888-4692
               </li>
               <li className="text-blue-200">
                 <span className="font-semibold">Email:</span>{" "}
