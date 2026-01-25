@@ -47,7 +47,7 @@ const Header = () => {
                 >
                   {item}
                 </a>
-              )
+              ),
             )}
             <a
               href="tel:+19168884692"
@@ -88,29 +88,35 @@ const Header = () => {
         </div>
 
         {/* Mobile Navigation */}
-        {isMobileMenuOpen && (
-          <nav className="md:hidden mt-4 pb-4 space-y-2">
+        <nav
+          className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
+            isMobileMenuOpen ? "max-h-80 opacity-100" : "max-h-0 opacity-0"
+          }`}
+        >
+          <div className="mt-4 bg-white rounded-lg shadow-lg border border-gray-100 mx-4">
             {["Home", "Services", "About", "Testimonials", "Contact"].map(
               (item) => (
                 <a
                   key={item}
                   href={`#${item.toLowerCase()}`}
-                  className="block text-gray-800 hover:text-amber-500 py-2"
+                  className="block text-gray-800 hover:text-amber-500 hover:bg-amber-50 py-3 px-4 transition-all duration-200 border-b border-gray-100"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {item}
                 </a>
-              )
+              ),
             )}
-            <a
-              href="tel:+19168884692"
-              className="block text-white bg-amber-500 hover:bg-amber-600 px-4 py-2 rounded-md text-center"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              Call For Quote
-            </a>
-          </nav>
-        )}
+            <div className="p-2">
+              <a
+                href="tel:+19168884692"
+                className="block text-white bg-amber-500 hover:bg-amber-600 px-4 py-3 rounded-md text-center font-medium transition-colors duration-200"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Call For Quote
+              </a>
+            </div>
+          </div>
+        </nav>
       </div>
     </header>
   );
